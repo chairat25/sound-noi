@@ -2,6 +2,14 @@
 
 รูปแบบตาม [Keep a Changelog](https://keepachangelog.com/) และใช้ [Semantic Versioning](https://semver.org/)
 
+## [Unreleased]
+
+### Added
+- `install.sh`: ติดตั้งด้วยคำสั่งเดียว `curl -fsSL https://raw.githubusercontent.com/chairat25/sound-noi/main/install.sh | bash` โหลด release ล่าสุด, เช็ค SHA-256 และ code signature, ปิดตัวเก่าที่รันอยู่ (คืนเสียง macOS ก่อน) แล้วติดตั้งและเปิดแอป ไม่เจอ Gatekeeper prompt
+
+### Changed
+- README: ขั้นตอน Open Anyway ชัดขึ้น (ปุ่มขึ้นใต้ "Allow applications from" หลังลองเปิดแอป และต้องเปิดหน้า Settings ใหม่)
+
 ## [1.2.0] - 2026-10-22
 
 ### Added
